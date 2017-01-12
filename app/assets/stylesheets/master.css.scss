@@ -1,10 +1,50 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway');
+
 .clear {
   clear:both;
 }
 
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  border-top: 9px solid #222222;
+}
+
 .headline_font_size {
   font-size: 24px;
+}
+
+hr {
+  clear:both;
+}
+
+.links {
+  padding-top:26px;
+}
+
+.links a {
+  color:black;
+  font-size: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  font-family: 'nobileregular', sans-serif;
+  font-weight:bold;
+}
+
+.logo:hover {
+  text-decoration:none;
+}
+
+.slogan {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  padding-top: 26px;
 }
