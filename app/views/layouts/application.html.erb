@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wisdomboxx</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          Logo
+        </div>
+        <div class="col-xs-4">
+          The WisdomBoxx for Promoboxxer
+        </div>
+        <div class="col-xs-5">
+          <%= link_to 'Contribute', '#' %>
+          <%= link_to 'About', '#' %>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br class="clear" />
 
 <%= yield %>
 
