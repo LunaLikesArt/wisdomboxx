@@ -1,7 +1,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway|Roboto+Mono');
+
+.btn-primary {
+  background-color: #19bdc9;
+  border-color: #19bdc9;
+}
+
+.btn-primary:hover {
+   color: #fff;
+   background-color: #199da7;
+   border-color: #199da7;
+ }
 
 .clear {
   clear:both;
@@ -32,14 +43,9 @@ h1 {
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-}
-
-
-h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  // font-weight: 600;
+  // font-size: 30px;
 }
 
 header {
@@ -68,7 +74,7 @@ hr {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   padding-top: 33px;
   font-size: 30px;
   font-weight: bold;
@@ -78,6 +84,7 @@ hr {
 
 .logo:hover {
   text-decoration:none;
+  color: #19bdc9;
 }
 
 .slogan {
@@ -110,4 +117,10 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  cursor: default;
+  border-bottom: 0;
 }
